@@ -20,14 +20,14 @@ const ViewOurDeals = () => {
       <div className="flex flex-col gap-5 items-center w-full ">
 
       <div className="flex flex-col gap-5 sm:flex-row justify-between w-full">
-        <div className="bg-white rounded-lg flex flex-row sm:flex-col justify-around items-center p-4 gap-5">
+        <div className="bg-white rounded-lg flex  flex-col justify-around items-center p-4 gap-5">
           <img className="h-10" src={ola} alt="" />
           <div className="flex flex-col items-center">
           <div >You could have earned</div>
           <div className="text-[40px] font-bold">₹4.0L</div>
         </div>
         </div>
-        <div className="bg-white rounded-lg flex flex-row sm:flex-col justify-around items-center p-4 gap-5">
+        <div className="bg-white rounded-lg flex flex-col justify-around items-center p-4 gap-5">
           <img className="h-10" src={bharat} alt="" />
           <div className="flex flex-col items-center">
           <div>You could have earned</div>
@@ -35,8 +35,8 @@ const ViewOurDeals = () => {
         </div>
         </div>
         </div>
-        <div className="flex items-center  bg-white justify-around rounded-lg lg:p-[40px] p-4  w-full">
-        <img className="lg:w-[180px] h-[40px] w-[108px]" src={zomato} alt="" />
+        <div className="sm:flex-row flex items-center flex-col gap-5  bg-white justify-evenly rounded-lg lg:p-[40px] p-4  w-[100%]">
+        <img className="h-10" src={zomato} alt="" />
         <div className="flex flex-col items-center">
           <div>You could have earned</div>
           <div className="text-[40px] font-bold">₹4.0L</div>
