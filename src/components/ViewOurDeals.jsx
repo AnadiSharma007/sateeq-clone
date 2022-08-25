@@ -8,11 +8,11 @@ const ViewOurDeals = () => {
     <div className="bg-[#1E47FF] mt-[12px] m-[20px] rounded-[40px] flex flex-col sm:flex-row justify-around items-center gap-5 p-[5rem] sm:p-[20px] pb-[30px]">
       <div className='flex flex-col sm:flex-row items-center justify-between gap-[10rem]'>
       <div className="flex flex-col items-center lg:items-start text-white">
-        <span className="text-center font-bold text-[25px]">
+        <span className="text-center sm:text-left font-bold text-[25px]">
           If you would have invested
         </span>
         <span className=" font-bold text-[64px]">₹5000</span>
-        <span className="text-[25px] mb-5">You could have earned</span>
+        <span className="text-center sm:text-left text-[25px] mb-5">You could have earned</span>
         <button className="rounded-lg py-3 w-[150px] font-bold text-blue-600 bg-white">
           View Our Deals
         </button>
