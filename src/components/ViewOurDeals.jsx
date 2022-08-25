@@ -2,8 +2,8 @@ import React from "react";
 
 const ViewOurDeals = () => {
   return (
-    <div className="bg-[#1E47FF] mt-[12px] m-[20px] rounded-[40px] flex flex-col sm:flex-row justify-around items-center gap-5  p-[20px] pb-[30px]">
-      <div className='flex flex-col sm:flex-row justify-between gap-[10rem]'>
+    <div className="bg-[#1E47FF] mt-[12px] m-[20px] rounded-[40px] flex flex-col sm:flex-row justify-around items-center gap-5 p-[5rem] sm:p-[20px] pb-[30px]">
+      <div className='flex flex-col sm:flex-row items-center justify-between gap-[10rem]'>
       <div className="flex flex-col  items-center sm:items-start text-white">
         <span className="font-bold text-[25px]">
           If you would have invested
@@ -16,7 +16,7 @@ const ViewOurDeals = () => {
       </div>
       <div className="flex flex-col gap-5 items-center w-full ">
 
-      <div className="flex flex-col sm:flex-row justify-between w-full">
+      <div className="flex flex-col gap-5 sm:flex-row justify-between w-full">
         <div className="bg-white rounded-lg flex flex-row sm:flex-col justify-around items-center p-4 gap-5">
           <img className="h-10" src="https://sateeq.com/img/est-1.b4f05541.svg" alt="" />
           <div className="flex flex-col items-center">

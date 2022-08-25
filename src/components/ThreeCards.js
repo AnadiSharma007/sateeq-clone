@@ -11,11 +11,11 @@ const ThreeCards = () => {
         <p className='text-white'>Start Investing with as low as 5000 <span>INR</span></p>
       </div>
       <div className="max-w-[350px] shadow-slate-400 shadow-lg bg-white flex flex-col items-center p-10 text-center gap-7 rounded-[20px]">
-        <FiUsers className='text-[70px] rounded-full p-4 bg-[#8d98cb] text-[#1E47FF]'/>
+        <FiUsers className='text-[70px] rounded-full p-4 bg-[#E4E9FF] text-[#1E47FF]'/>
         <p>Start Investing with as low as 5000 <span>INR</span></p>
       </div>
       <div className="max-w-[350px] shadow-slate-400 shadow-lg bg-white flex flex-col items-center p-10 text-center gap-7 rounded-[20px]">
-        <BsCheck2Circle className='text-[70px] rounded-full p-4 bg-[#8d98cb] text-[#1E47FF]'/>
+        <BsCheck2Circle className='text-[70px] rounded-full p-4 bg-[#E4E9FF] text-[#1E47FF]'/>
         <p>Start Investing with as low as 5000 <span>INR</span></p>
       </div>
       
