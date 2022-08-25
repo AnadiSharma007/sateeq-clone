@@ -1,4 +1,7 @@
 import React from "react";
+import ola from '../assets/images/ola.svg';
+import bharat from '../assets/images/bharat.svg';
+import zomato from '../assets/images/zomato.svg';
 
 const ViewOurDeals = () => {
   return (
@@ -18,14 +21,14 @@ const ViewOurDeals = () => {
 
       <div className="flex flex-col gap-5 sm:flex-row justify-between w-full">
         <div className="bg-white rounded-lg flex flex-row sm:flex-col justify-around items-center p-4 gap-5">
-          <img className="h-10" src="https://sateeq.com/img/est-1.b4f05541.svg" alt="" />
+          <img className="h-10" src={ola} alt="" />
           <div className="flex flex-col items-center">
           <div >You could have earned</div>
           <div className="text-[40px] font-bold">₹4.0L</div>
         </div>
         </div>
         <div className="bg-white rounded-lg flex flex-row sm:flex-col justify-around items-center p-4 gap-5">
-          <img className="h-10" src="https://sateeq.com/img/est-4.d73ab359.svg" alt="" />
+          <img className="h-10" src={bharat} alt="" />
           <div className="flex flex-col items-center">
           <div>You could have earned</div>
           <div className="text-[40px] font-bold">₹4.0L</div>
@@ -33,7 +36,7 @@ const ViewOurDeals = () => {
         </div>
         </div>
         <div className="flex items-center  bg-white justify-around rounded-lg lg:p-[40px] p-4  w-full">
-        <img className="lg:w-[180px] h-[40px] w-[108px]" src="https://sateeq.com/img/est-2.0d1a3584.svg" alt="" />
+        <img className="lg:w-[180px] h-[40px] w-[108px]" src={zomato} alt="" />
         <div className="flex flex-col items-center">
           <div>You could have earned</div>
           <div className="text-[40px] font-bold">₹4.0L</div>
