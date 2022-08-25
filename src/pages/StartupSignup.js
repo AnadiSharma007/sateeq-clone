@@ -43,7 +43,7 @@ const formData = [
 
 const StartupSignup = () => {
   return (
-    <div className="w-[80%] lg:w-[50%] m-auto flex flex-col gap-5">
+    <div className="w-[80%] lg:w-[50%] m-auto mt-8 flex flex-col gap-5">
       <div className="text-[40px] font-bold">Raise with Sateeq</div>
       <div className="text-[20px]">
         Tell us a little about your company. Applications are usually processed
