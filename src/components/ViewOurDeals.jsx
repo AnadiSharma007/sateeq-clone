@@ -42,7 +42,7 @@ const ViewOurDeals = () => {
           <div className="text-[40px] font-bold">₹4.0L</div>
         </div>
         </div>
-        <div className="text-[17px] text-[#ffffff99] font-bold">* In thier first funding round</div>
+        <div className="text-center text-[17px] text-[#ffffff99] font-bold">* In thier first funding round</div>
       </div>
       </div>
     </div>
