@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    body {
+        @apply bg-[#FAFAFA];
+    }
+}
+
+@layer components{
+    .blue-button {
+        @apply hover:bg-[#3c60ff] hover:bg-opacity-50 bg-[#3055FF] py-2 px-5 text-white rounded-xl
+    }
+
+    .hero-font {
+        @apply font-normal font-extrabold text-[60px]
+    }
+    
+    .header-font {
+        @apply font-normal font-extrabold text-[40px]
+    }
+
+    .raise-font {
+        @apply font-normal font-extrabold text-[50px]
+    }
+   
+
+   
+    
+}
