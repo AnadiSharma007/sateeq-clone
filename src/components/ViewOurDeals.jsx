@@ -4,12 +4,12 @@ const ViewOurDeals = () => {
   return (
     <div className="bg-[#1E47FF] mt-[12px] m-[20px] rounded-[40px] flex flex-col sm:flex-row justify-around items-center gap-5 p-[5rem] sm:p-[20px] pb-[30px]">
       <div className='flex flex-col sm:flex-row items-center justify-between gap-[10rem]'>
-      <div className="flex flex-col  items-center sm:items-start text-white">
-        <span className="font-bold text-[25px]">
+      <div className="flex flex-col items-center lg:items-start text-white">
+        <span className="text-center font-bold text-[25px]">
           If you would have invested
         </span>
-        <span className="font-bold text-[64px]">₹5000</span>
-        <span className="text-[25px]">You could have earned</span>
+        <span className=" font-bold text-[64px]">₹5000</span>
+        <span className="text-[25px] mb-5">You could have earned</span>
         <button className="rounded-lg py-3 w-[150px] font-bold text-blue-600 bg-white">
           View Our Deals
         </button>
@@ -20,7 +20,7 @@ const ViewOurDeals = () => {
         <div className="bg-white rounded-lg flex flex-row sm:flex-col justify-around items-center p-4 gap-5">
           <img className="h-10" src="https://sateeq.com/img/est-1.b4f05541.svg" alt="" />
           <div className="flex flex-col items-center">
-          <div>You could have earned</div>
+          <div >You could have earned</div>
           <div className="text-[40px] font-bold">₹4.0L</div>
         </div>
         </div>
@@ -32,8 +32,8 @@ const ViewOurDeals = () => {
         </div>
         </div>
         </div>
-        <div className="flex items-center  bg-white justify-around rounded-lg p-[40px]  w-full">
-        <img className="h-10" src="https://sateeq.com/img/est-2.0d1a3584.svg" alt="" />
+        <div className="flex items-center  bg-white justify-around rounded-lg lg:p-[40px] p-4  w-full">
+        <img className="lg:w-[180px] h-[40px] w-[108px]" src="https://sateeq.com/img/est-2.0d1a3584.svg" alt="" />
         <div className="flex flex-col items-center">
           <div>You could have earned</div>
           <div className="text-[40px] font-bold">₹4.0L</div>

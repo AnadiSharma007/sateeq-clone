@@ -74,7 +74,7 @@ const Raise = () => {
             <img src={raise1} alt="" />
         </div>
     </div>
-      <div>
+      <div className="mb-10">
         {raiseData.map((data) => (
           <RaiseSubComponent
             key={data.id}
