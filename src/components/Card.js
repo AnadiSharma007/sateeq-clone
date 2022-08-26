@@ -30,11 +30,11 @@ const Card = ({ img, smallImg, heading, desc, tags, raised, close, invest, finis
     
       { finished ? (
         <div className="flex my-2 justify-between">
-          <div className="flex flex-col bg-green-400 bg-opacity-30 items-center py-1 px-2 rounded-lg" >
-            <div className="text-lg text-green-600">{raised}</div>
-            <div>Raised</div>
+          <div className="flex flex-col bg-green-400 bg-opacity-30 items-start py-1 px-2 rounded-lg" >
+            <div className="text-lg text-green-600 font-extrabold">{raised}</div>
+            <div className='text-[12px] opacity-80 font-semibold text-gray-600'>Raised</div>
           </div>
-          <div className="flex flex-row bg-green-400 bg-opacity-30 items-center py-1 px-2 rounded-lg">
+          <div className="flex flex-row border-2 border-green-400 bg-opacity-30 items-center py-1 px-2 rounded-lg">
             <div><img src={funded} alt="" /></div>
             <div className='text-lg text-green-600'>SuccessFully Funded</div>
           </div>
